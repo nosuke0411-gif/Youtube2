@@ -98,6 +98,7 @@ def index():
     }
 
     #clearInputBtn {
+        flex: 1;
         padding: 14px;
         font-size: 14px;
         background: #dc3545;
