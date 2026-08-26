@@ -98,14 +98,14 @@ def index():
     }
 
     #clearInputBtn {
-        flex: 1;
-        padding: 15px;
+        padding: 14px;
         font-size: 14px;
         background: #dc3545;
         color: white;
         border: none;
         border-radius: 6px;
         cursor: pointer;
+        height: 48
     }
 
     button {
