@@ -99,7 +99,7 @@ def index():
 
     #clearInputBtn {
         flex: 1;
-        padding: 6px;
+        padding: 20px;
         font-size: 14px;
         background: #dc3545;
         color: white;
@@ -109,7 +109,7 @@ def index():
     }
 
     button {
-        padding: 50px 20px;
+        padding: 14px 20px;
         font-size: 18px;
         margin-top: 15px;
         border: none;
