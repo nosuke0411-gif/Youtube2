@@ -105,7 +105,7 @@ def index():
         border: none;
         border-radius: 6px;
         cursor: pointer;
-        flex: -5px
+        height: 14px;
     }
 
     button {
