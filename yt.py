@@ -109,7 +109,7 @@ def index():
     }
 
     button {
-        padding: 14px 20px;
+        padding: 50px 20px;
         font-size: 18px;
         margin-top: 15px;
         border: none;
