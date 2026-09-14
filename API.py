@@ -28,11 +28,11 @@ def convert():
     video_id = extract_video_id(url)
 
     if playlist_id:
-        embed = f"https://www.youtube.com/embed?list={playlist_id}"
+        embed = f"https://www.youtube.com/embed?list={playlist_id}&mute=1"
         return jsonify({"success": True, "type": "playlist", "embed": embed})
 
     if video_id:
-        embed = f"https://www.youtube.com/embed/{video_id}"
+        embed = f"https://www.youtube.com/embed/{video_id}&mute=1"
         return jsonify({"success": True, "type": "video", "embed": embed})
 
     return jsonify({"success": False, "error": "動画IDまたはプレイリストIDが見つかりません"}), 400
